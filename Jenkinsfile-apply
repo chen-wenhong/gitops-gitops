@@ -7,7 +7,7 @@ pipeline {
   }
   agent {
     node {
-      laobel 'nodejs'
+      label 'nodejs'
     }
   }
   stages {
